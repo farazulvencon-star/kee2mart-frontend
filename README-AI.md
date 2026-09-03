@@ -29,3 +29,20 @@ Whenever you open a new chat session for this project, you MUST strictly adhere 
 
 4. **Self-Sufficiency:**
    Do not leave placeholders or incomplete code. Finish the implementation completely.
+
+## 🚀 How to Run Locally (For New Devices)
+If you are setting up this project on a new device (e.g., home PC), follow these steps:
+1. **Install Dependencies:** 
+   ```bash
+   npm install
+   ```
+2. **Start Development Server:** 
+   ```bash
+   npm run dev
+   ```
+   The site will be available at `http://localhost:3000`.
+3. **Build for Production (Optional):**
+   ```bash
+   npm run build
+   npm run start
+   ```
