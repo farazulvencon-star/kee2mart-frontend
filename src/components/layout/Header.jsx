@@ -381,17 +381,15 @@ const Header = () => {
             <div className="px-2 flex justify-between items-center pb-[8px] md:py-[12px] lg:py-4 gap-4 md:gap-8 border-b-2 md:border-none py-2">
               <div className="  relative order-2 lg:order-1 h-[38px] lg:h-[45px] w-[140px] lg:w-[170px]">
                 <LocalizedLink href={"/"} className="relative block w-full h-full">
-                  {setting?.setting?.web_settings?.web_logo && (
-                    <Image
-                      src={setting?.setting?.web_settings?.web_logo}
-                      alt="Logo"
-                      fill
-                      priority={true}
-                      fetchpriority="high"
-                      loading="eager"
-                      className="object-contain"
-                    />
-                  )}
+                  <Image
+                    src={setting?.setting?.web_settings?.web_logo || "/logo.png"}
+                    alt="Logo"
+                    fill
+                    priority={true}
+                    fetchpriority="high"
+                    loading="eager"
+                    className="object-contain"
+                  />
                 </LocalizedLink>
               </div>
               
