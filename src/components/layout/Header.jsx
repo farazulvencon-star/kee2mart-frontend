@@ -379,7 +379,7 @@ const Header = () => {
         <div className="primaryBackColor pb-0 md:pb-3 relative shadow-sm text-white">
           <div className="center-header container">
             <div className="px-2 flex justify-between items-center pb-[8px] md:py-[12px] lg:py-4 gap-4 md:gap-8 border-b-2 md:border-none py-2">
-              <div className="  relative order-2 lg:order-1 h-[38px] lg:h-[45px] w-[140px] lg:w-[170px]">
+              <div className="relative order-2 lg:order-1 h-[55px] lg:h-[80px] w-[160px] lg:w-[220px]">
                 <LocalizedLink href={"/"} className="relative block w-full h-full">
                   <Image
                     src={setting?.setting?.web_settings?.web_logo || "/kee2mart-logo.png"}
