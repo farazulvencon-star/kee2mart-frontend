@@ -326,7 +326,7 @@ const Header = () => {
 
   return (
     <>
-      <section className="border-b-2">
+      <section className="border-b-2 sticky top-0 z-50 w-full">
         <div className="w-full primaryBackColor top-header text-white  md:block hidden">
           <div className="container flex justify-center items-center h-[40px] px-2">
             <div className="flex gap-6 text-xs font-semibold uppercase whitespace-nowrap items-center">
