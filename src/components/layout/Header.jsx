@@ -382,13 +382,13 @@ const Header = () => {
               <div className="  relative order-2 lg:order-1 h-[38px] lg:h-[45px] w-[140px] lg:w-[170px]">
                 <LocalizedLink href={"/"} className="relative block w-full h-full">
                   <Image
-                    src={setting?.setting?.web_settings?.web_logo || "/logo.png"}
+                    src={setting?.setting?.web_settings?.web_logo || "/kee2mart-logo.png"}
                     alt="Logo"
                     fill
                     priority={true}
                     fetchpriority="high"
                     loading="eager"
-                    className="object-contain"
+                    className="object-contain mix-blend-multiply"
                   />
                 </LocalizedLink>
               </div>
