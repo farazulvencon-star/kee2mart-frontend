@@ -71,6 +71,23 @@ const HomePageSlider = ({ slider }) => {
     }
   };
 
+  const rightBanners = slider?.offers?.filter((offer) => offer?.position === "slider_right") || [];
+
+  const handleBannerClick = (offer) => {
+    if (offer?.type === "product") {
+      router.push(`/product/${offer?.product?.slug}`);
+    } else if (offer?.type === "category") {
+      if (offer?.category?.has_child === true) {
+        router.push(`/categories/${offer?.type_slug}`);
+      } else {
+        dispatch(setFilterCategory({ data: offer?.category?.id.toString() }));
+        router.push(`/products`);
+      }
+    } else if (offer?.offer_url) {
+      window.open(offer?.offer_url, "_blank");
+    }
+  };
+
   if (slideCount === 0) {
     return null;
   }
@@ -79,7 +96,7 @@ const HomePageSlider = ({ slider }) => {
     <div className="w-full container pt-3 mb-6">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
         {/* Carousel Section */}
-        <div className="md:col-span-9 relative">
+        <div className={`${rightBanners.length > 0 ? 'md:col-span-9' : 'md:col-span-12'} relative`}>
           <div className="overflow-hidden rounded-lg" ref={emblaRef} key={language?.type}>
             <div className="flex ml-[-12px]">
               {slides.map((slide, index) => (
@@ -123,18 +140,20 @@ const HomePageSlider = ({ slider }) => {
           </div>
         </div>
         
-        {/* Static Banner Section */}
-        <div className="md:col-span-3 hidden md:block relative rounded-lg overflow-hidden h-full w-full">
-          <div className="absolute inset-0">
-            <Image 
-                src="/assets/images/download-app-banner-green.png" 
-                alt="Download App" 
-                className="w-full h-full object-cover rounded-lg"
-                width={400}
-                height={543}
-            />
+        {/* Dynamic Banner Section */}
+        {rightBanners.length > 0 && (
+          <div className="md:col-span-3 hidden md:block relative rounded-lg overflow-hidden h-full w-full">
+            <div className="absolute inset-0 cursor-pointer" onClick={() => handleBannerClick(rightBanners[0])}>
+              <Image 
+                  src={rightBanners[0].image_url} 
+                  alt="Offer Banner" 
+                  className="w-full h-full object-cover rounded-lg"
+                  width={400}
+                  height={543}
+              />
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
