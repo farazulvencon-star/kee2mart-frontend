@@ -34,6 +34,13 @@ const FeatureSections = () => {
     return (
         <section>
             <div className=' md:mx-0'>
+                {/* 1. MAIN SLIDER (BANNER) AT THE VERY TOP */}
+                {shop?.sliders?.length > 0 && <HomePageSlider slider={shop} />}
+
+                {/* 2. CATEGORIES RIGHT BELOW THE BANNER */}
+                {shop?.categories?.length > 0 && <Categories categories={shop} />}
+
+                {/* 3. ALL OTHER SECTIONS AND OFFERS BELOW CATEGORIES */}
                 <div className='container promotion-image'>
                     {aboveHomeSlider && aboveHomeSlider?.map((offer) => {
                         return (
@@ -55,7 +62,7 @@ const FeatureSections = () => {
                     }
 
                 })}
-                {shop?.sliders?.length > 0 && <HomePageSlider slider={shop} />}
+                
                 <div className='container promotion-image'>
                     {BelowHomeSlider && BelowHomeSlider?.map((offer) => {
                         return (
@@ -77,7 +84,6 @@ const FeatureSections = () => {
                     }
 
                 })}
-                {shop?.categories?.length > 0 && <Categories categories={shop} />}
 
                 <div className='container promotion-image'>
                     {BelowCategory && BelowCategory?.map((offer) => {
