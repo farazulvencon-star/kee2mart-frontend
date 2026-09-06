@@ -1,7 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
-    status: "loading",
-    city: null,
+    status: "fulfill",
+    city: {
+        formatted_address: "Bypass Location",
+        latitude: 23.8103,
+        longitude: 90.4125,
+        lat: 23.8103,
+        lng: 90.4125
+    },
 };
 export const locationReducer = createSlice({
     name: "city",
