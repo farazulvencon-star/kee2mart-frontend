@@ -188,7 +188,7 @@ const ProductDetail = () => {
       }
     },
     enabled: !!slug && !!city?.latitude,
-    staleTime: 1000 * 60 * 5,
+    staleTime: 0, // Changed from 5 minutes to 0 to prevent caching issues
     retry: 1,
   });
 
