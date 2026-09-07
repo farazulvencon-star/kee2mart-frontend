@@ -71,8 +71,11 @@ function AppContent({ Component, pageProps }) {
 }
 
 export default function App({ Component, pageProps }) {
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
+    
     const currentVersion = process.env.NEXT_PUBLIC_APP_VERSION || "1.0.0";
     const storedVersion = localStorage.getItem("APP_VERSION");
 
@@ -99,6 +102,10 @@ export default function App({ Component, pageProps }) {
       window.location.reload();
     }
   }, []);
+
+  if (!mounted) {
+    return null; // Return null until mounted to avoid hydration errors
+  }
 
   return (
     <main className={`${nunito.variable} `}>
