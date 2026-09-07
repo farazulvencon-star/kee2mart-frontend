@@ -2,211 +2,211 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
     <loc>WEBSITE_NAME/404</loc>
-    <lastmod>2026-09-04T08:12:09.269Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.303Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/about-us</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>WEBSITE_NAME/blogs</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>WEBSITE_NAME/brands</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/cancellation-policy</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>WEBSITE_NAME/cart</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <loc>WEBSITE_NAME/blogs</loc>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>WEBSITE_NAME/brands</loc>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/categories/[...slug]</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>WEBSITE_NAME/cart</loc>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/checkout</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/contact-us</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/countries</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/faqs</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/privacy-policy</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/products</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/profile</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/return-and-echange-policy</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>WEBSITE_NAME/sellers</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/shipping-policy</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>WEBSITE_NAME/sellers</loc>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/terms-and-conditions</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/web-payment-status</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/blog/[slug]</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/order-detail/[orderid]</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/product/[slug]</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/profile/activeorders</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>WEBSITE_NAME/profile/notification-setting</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/profile/address</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/profile/notifications</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>WEBSITE_NAME/profile/notification-setting</loc>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/profile/orderhistory</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/profile/requested-products</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/profile/resetpassword</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/profile/subscription</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>WEBSITE_NAME/profile/transaction</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/profile/wallethistory</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>WEBSITE_NAME/profile/transaction</loc>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/profile/wishlist</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>WEBSITE_NAME/profile/orderhistory/[orderid]</loc>
-    <lastmod>2026-09-04T08:12:09.270Z</lastmod>
+    <lastmod>2026-09-07T08:21:20.304Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>

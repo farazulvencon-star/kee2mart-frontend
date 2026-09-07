@@ -1,7 +1,8 @@
 import { useEffect, useState, Suspense } from "react";
 import "@/styles/globals.css";
 import { Provider, useSelector } from "react-redux";
-import { store } from "@/redux/store";
+import { store, persistor } from "@/redux/store";
+import { PersistGate } from "redux-persist/integration/react";
 import "react-toastify/dist/ReactToastify.css";
 import Loader from "@/components/loader/Loader";
 import { useRouter } from "next/router";
@@ -71,16 +72,46 @@ function AppContent({ Component, pageProps }) {
 
 export default function App({ Component, pageProps }) {
 
+  useEffect(() => {
+    const currentVersion = process.env.NEXT_PUBLIC_APP_VERSION || "1.0.0";
+    const storedVersion = localStorage.getItem("APP_VERSION");
+
+    if (storedVersion !== currentVersion) {
+      console.log("App version changed. Clearing caches...");
+      
+      // Clear all local and session storage
+      localStorage.clear();
+      sessionStorage.clear();
+      
+      // Unregister any active service workers
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then((registrations) => {
+          registrations.forEach((registration) => {
+            registration.unregister();
+          });
+        });
+      }
+
+      // Set the new version
+      localStorage.setItem("APP_VERSION", currentVersion);
+
+      // Reload the page to fetch the fresh application
+      window.location.reload();
+    }
+  }, []);
+
   return (
     <main className={`${nunito.variable} `}>
       <ErrorBoundary>
         <QueryClientProvider client={queryClient}>
           <Provider store={store}>
-            <ThemeProvider attribute="class" defaultTheme="light">
-              <Suspense fallback={<Loader screen="full" />}>
-                <AppContent Component={Component} pageProps={pageProps} />
-              </Suspense>
-            </ThemeProvider>
+            <PersistGate loading={<Loader screen="full" />} persistor={persistor}>
+              <ThemeProvider attribute="class" defaultTheme="light">
+                <Suspense fallback={<Loader screen="full" />}>
+                  <AppContent Component={Component} pageProps={pageProps} />
+                </Suspense>
+              </ThemeProvider>
+            </PersistGate>
           </Provider>
         </QueryClientProvider>
       </ErrorBoundary>
